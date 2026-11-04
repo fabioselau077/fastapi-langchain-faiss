@@ -1,8 +1,8 @@
-# Prova — Desenvolvedor Backend com foco em IA
+# Backend com IA: API, chatbot e busca semântica
 
-Solução das três questões da prova técnica da Dot Digital Group, cada uma em sua pasta, com código, testes e exemplos de execução.
+Três projetos em Python, cada um em sua pasta, com código, testes e exemplos de execução: uma API REST de livros, um chatbot de programação com LangChain e uma busca semântica com embeddings e FAISS.
 
-| Questão | Pasta | Stack |
+| Projeto | Pasta | Stack |
 |---|---|---|
 | 1. API de livros | [`q1_api_livros`](q1_api_livros) | FastAPI, SQLAlchemy, SQLite, pytest |
 | 2. Chatbot de Python | [`q2_chatbot`](q2_chatbot) | LangChain, OpenAI, LangSmith |
@@ -17,7 +17,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-Cada questão tem seu próprio `requirements.txt`, já que a Q3 depende do torch e as outras não:
+Cada projeto tem seu próprio `requirements.txt`, já que a busca semântica depende do torch e os outros não:
 
 ```bash
 pip install -r q1_api_livros/requirements.txt
@@ -27,7 +27,7 @@ pip install -r q3_busca_semantica/requirements.txt
 
 ---
 
-## Questão 1 — API de livros
+## 1 — API de livros
 
 ```bash
 cd q1_api_livros
@@ -52,7 +52,7 @@ A documentação interativa (Swagger) fica em http://127.0.0.1:8000/docs.
 
 ---
 
-## Questão 2 — Chatbot de Python
+## 2 — Chatbot de Python
 
 Copie o `.env.example` para `.env` e preencha a `OPENAI_API_KEY`.
 
@@ -88,7 +88,7 @@ flowchart LR
 
 ---
 
-## Questão 3 — Busca semântica
+## 3 — Busca semântica
 
 ```bash
 cd q3_busca_semantica
