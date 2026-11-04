@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "title": "Primeiros passos com listas em Python",
+        "content": "Listas guardam vários valores em uma única variável e são criadas com colchetes. É possível adicionar itens com append, remover com remove e acessar cada elemento pela posição, começando do zero."
+    },
+    {
+        "id": 2,
+        "title": "Tratando erros em Python com try e except",
+        "content": "Quando algo pode falhar, como abrir um arquivo que não existe, o bloco try permite capturar a exceção e decidir o que fazer. Assim o programa não é encerrado de forma inesperada e o usuário recebe uma mensagem clara."
+    },
+    {
+        "id": 3,
+        "title": "Introdução ao Docker",
+        "content": "Containers empacotam a aplicação junto com suas dependências, garantindo que ela rode igual em qualquer máquina. Com um Dockerfile você descreve o ambiente e com o docker compose sobe vários serviços de uma vez."
+    },
+    {
+        "id": 4,
+        "title": "O que são APIs REST",
+        "content": "Uma API REST permite que sistemas diferentes conversem pela internet usando requisições HTTP. Os verbos GET, POST, PUT e DELETE indicam se a operação busca, cria, altera ou apaga um recurso."
+    },
+    {
+        "id": 5,
+        "title": "Como montar um orçamento pessoal",
+        "content": "Anote todas as entradas e saídas do mês e separe as despesas fixas das variáveis. Com essa visão fica fácil identificar onde cortar e definir um valor para guardar todo mês."
+    },
+    {
+        "id": 6,
+        "title": "Por que ter uma reserva de emergência",
+        "content": "Imprevistos como perda de emprego ou problemas de saúde acontecem. O ideal é guardar o equivalente a seis meses de custo de vida em uma aplicação segura e com resgate rápido."
+    },
+    {
+        "id": 7,
+        "title": "Dicas para dormir melhor",
+        "content": "Manter horários regulares, evitar telas antes de deitar e reduzir a cafeína à tarde ajudam a ter um sono mais profundo. Um quarto escuro e silencioso também faz diferença no descanso."
+    },
+    {
+        "id": 8,
+        "title": "Os benefícios da caminhada diária",
+        "content": "Caminhar trinta minutos por dia melhora o condicionamento do coração, ajuda no controle do peso e reduz o estresse. É uma atividade simples, barata e que pode ser feita em qualquer lugar."
+    },
+    {
+        "id": 9,
+        "title": "Plantas que vivem bem em apartamento",
+        "content": "Espécies como zamioculca, espada-de-são-jorge e jiboia toleram pouca luz e precisam de rega apenas quando a terra está seca. São ótimas opções para quem tem pouco tempo e pouco espaço."
+    },
+    {
+        "id": 10,
+        "title": "Pão caseiro para iniciantes",
+        "content": "Com farinha, água, sal e fermento dá para fazer um pão macio em casa. O segredo está em sovar bem a massa e respeitar o tempo de descanso até ela dobrar de volume."
+    },
+    {
+        "id": 11,
+        "title": "Mochilão pela América do Sul gastando pouco",
+        "content": "Viajar de ônibus, ficar em hostels e comer em mercados locais reduz bastante os custos. Peru, Bolívia e Colômbia estão entre os destinos mais procurados por mochileiros."
+    },
+    {
+        "id": 12,
+        "title": "Produtividade no trabalho remoto",
+        "content": "Ter um espaço dedicado ao trabalho, definir horários de início e fim e fazer pausas curtas ajuda a manter o foco em casa. Combinar a rotina com quem mora junto evita interrupções."
+    }
+]
